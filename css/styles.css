@@ -1,0 +1,80 @@
+/******************************/
+         /* IMPORTS */
+/******************************/
+
+
+/********** FONTS **********/
+
+/* Red Hat Display */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+/******************************/
+        /* VARIABLES */
+/******************************/
+
+:root {
+
+
+  /********** FONT SIZE **********/
+
+  --f-size: 16px;
+
+
+  /********** FONT FAMILY **********/
+
+  --red-hat-display: 'Red Hat Display', sans-serif;
+
+
+  /********** FONT WEIGHTS **********/
+
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-black: 900;
+
+
+  /********** COLORS **********/
+
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+
+  
+  /********** DISPLAY SIZE **********/
+
+  --mobile: 375px;
+  --desktop: 1440px;
+
+}
+
+
+
+/******************************/
+           /* STYLES */
+/******************************/
+
+
+/********** GLOBAL **********/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* Body .main-container */
+
+.main-container {
+  font-size: var(--f-size);
+  font-family: var(--red-hat-display);
+}
+
+
+
+
+
+
