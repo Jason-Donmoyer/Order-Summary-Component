@@ -47,6 +47,13 @@
   --mobile: 375px;
   --desktop: 1440px;
 
+
+  /* * * * TEST BORDER * * * */
+
+  --test-border: 1px solid red;
+
+
+
 }
 
 
@@ -68,9 +75,28 @@ html {
 
 /* Body .main-container */
 
-.main-container {
+body {
   font-size: var(--f-size);
   font-family: var(--red-hat-display);
+}
+
+.main-container {
+  width: 23.4375rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--pale-blue);
+  background-image: url('../images/pattern-background-mobile.svg');
+  background-repeat: no-repeat;
+}
+
+/* .content-container */
+
+.content-container {
+  width: 20.4375rem;
+  height: 35.4375rem;
 }
 
 
