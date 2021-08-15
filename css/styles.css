@@ -73,7 +73,7 @@ html {
 }
 
 
-/* Body .main-container */
+/* Body */
 
 body {
   font-size: var(--f-size);
@@ -83,6 +83,10 @@ body {
   background-repeat: no-repeat;
 }
 
+/********** STYLES **********/
+
+/* Main Container */
+
 .main-container {
   width: 23.4375rem;
   height: 100vh;
@@ -90,11 +94,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  
+  align-items: center; 
 }
 
-/* .content-container */
+/* Main Content Container */
+
 
 .content-container {
   width: 20.4375rem;
@@ -104,6 +108,7 @@ body {
   box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
 }
 
+
 /* Hero Image */
 
 .hero-image {
@@ -112,8 +117,46 @@ body {
 }
 
 
+/* H1 Main Headline */
+
+.main-headline {
+  color: var(--dark-blue);
+  font-weight: var(--fw-black);
+  font-size: 1.375rem;
+  line-height: 1.819375rem;
+  text-align: center;
+  margin: 2rem 2rem 1rem 2rem;
+}
 
 
+/* Main Copy */
+
+.main-copy {
+  color: var(--desaturated-blue);
+  font-weight: var(--fw-medium);
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  text-align: center;
+  margin: 1rem 2rem 1.5rem 2rem;
+}
+
+
+/********** PAYMENT SECTION **********/
+
+/* Payment Section Mainn Container */
+
+.payment-section {
+
+}
+
+/* Payment Section Container */
+
+.payment-section-content-container {
+  display: flex;
+}
+
+
+/* Music Icon */
 
 .music-icon {
   height: 3rem;
