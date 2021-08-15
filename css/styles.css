@@ -103,6 +103,8 @@ body {
 .content-container {
   width: 20.4375rem;
   height: 35.4375rem;
+  display: flex;
+  flex-direction: column;
   border-radius: 20px;
   background-color: #FFF;
   box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
@@ -137,7 +139,7 @@ body {
   font-size: 0.9375rem;
   line-height: 1.5625rem;
   text-align: center;
-  margin: 1rem 2rem 1.5rem 2rem;
+  margin: 0 2rem 0 2rem;
 }
 
 
@@ -146,13 +148,25 @@ body {
 /* Payment Section Mainn Container */
 
 .payment-section {
-
+  width: 17.4375rem;
+  height: 5.0625rem;
+  margin: 1.5rem;
+  background-color: var(--very-pale-blue);
+  border-radius: 0.6875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 /* Payment Section Container */
 
 .payment-section-content-container {
+  width: 15.4375rem;
+  height: 3rem;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
@@ -164,3 +178,51 @@ body {
 }
 
 
+/* Payment Section Copy Container */
+
+.payment-section-copy-container {
+  margin-left: -1.25rem;
+}
+
+/* Annual Plan Copy */
+
+.annual-plan-copy {
+  color: var(--dark-blue);
+  font-weight: var(--fw-black);
+  font-size: 0.875rem;
+  line-height: 1.1575rem;
+  margin: 0;
+}
+
+
+/* Plan Price Copy */
+
+.plan-price-copy {
+  color: var(--desaturated-blue);
+  font-weight: var(--fw-medium);
+  font-size: 0.875rem;
+  line-height: 1.1575rem;
+  margin: 0.1875rem 0 0 0;
+}
+
+/* Change Button */
+
+.change-btn {
+  color: var(--bright-blue);
+  font-weight: var(--fw-bold);
+  font-size: 0.8125rem;
+  line-height: 1.0625rem;
+  text-decoration: underline;
+}
+
+
+/********** BUTTONS **********/
+
+
+/* Payment Button */
+
+.payment-btn {
+  width: 17.4375rem;
+  height: 3.125rem;
+  align-self: center;;
+}
