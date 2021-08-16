@@ -89,7 +89,7 @@ body {
 /* Main Container */
 
 .main-container {
-  width: 23.4375rem;
+  width: 20.4375rem;
   height: 100vh;
   margin: 0 auto;
   display: flex;
@@ -280,8 +280,62 @@ body {
 
 @media screen and (min-width: 415px) {
   
-  body {
-    color: red;
-  }
+
+ /* Body */
+
+ body {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-size: contain;
+ }
+
+
+ /* Main Container */
+
+ .main-container {
+   width: 28.125rem;
+   height: 43.5265rem;
+ }
+
+
+ /* Content Container */
+
+ .content-container {
+   width: 28.125rem;
+ }
+
+ 
+ /* Hero Image */
+
+ .hero-image {
+   width: 28.125rem;
+   height: auto;
+ }
+
+
+ /* Main Headline */
+
+ .main-headline {
+   font-size: 1.75rem;
+   line-height: 2.315rem;
+   margin: 2.8125rem 3rem 1.0625rem 3rem;
+ }
+
+
+ /* Main Copy */
+
+ .main-copy {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+ }
+
+
+/* Payment Section Main Container */
+
+/* .payment-section {
+
+} */
+
 
 }
