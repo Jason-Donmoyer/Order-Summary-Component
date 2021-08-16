@@ -81,6 +81,7 @@ body {
   background-color: var(--pale-blue);
   background-image: url('../images/pattern-background-mobile.svg');
   background-repeat: no-repeat;
+  position: relative;
 }
 
 /********** STYLES **********/
@@ -145,7 +146,7 @@ body {
 
 /********** PAYMENT SECTION **********/
 
-/* Payment Section Mainn Container */
+/* Payment Section Main Container */
 
 .payment-section {
   width: 17.4375rem;
@@ -224,5 +225,63 @@ body {
 .payment-btn {
   width: 17.4375rem;
   height: 3.125rem;
-  align-self: center;;
+  /* align-self: center; */
+  margin: 0 1.5rem 1.5rem 1.5rem;
+  background-color: var(--bright-blue);
+  color: #FFF;
+  font-weight: var(--fw-black);
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  border-radius: 0.6875rem;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+
+
+/* Cancel Button */
+
+.cancel-btn {
+  text-align: center;
+  color: var(--desaturated-blue);
+  font-weight: var(--fw-black);
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  padding: 0;
+  margin: 0;
+}
+
+
+/********** FOOTER **********/
+
+.footer {
+  font-size: 0.6875rem;
+  font-weight: var(--fw-medium);
+  text-align: center;
+  position: absolute;
+  bottom: 0.875rem;
+}
+
+
+/* Footer Links */
+
+.footer-link {
+  color: var(--bright-blue);
+}
+
+
+
+/******************************/
+        /* BREAKPOINTS */
+/******************************/
+
+
+/* DESKTOP */
+/* Design is for 375px on mobile devices. */
+/* Set breakpoint at 415px to account for Pixel2 and iPhone Plus. */
+
+@media screen and (min-width: 415px) {
+  
+  body {
+    color: red;
+  }
+
 }
