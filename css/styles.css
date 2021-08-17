@@ -41,6 +41,11 @@
   --desaturated-blue: hsl(224, 23%, 55%);
   --dark-blue: hsl(223, 47%, 23%);
 
+  /* ACTIVE COLORS */
+
+  --light-purple: hsla(245, 83%, 68%, 1);
+  --very-dark-blue: hsla(223, 47%, 23%, 1);
+
   
   /********** DISPLAY SIZE **********/
 
@@ -382,8 +387,44 @@ body {
 }
 
 
+/******************************/
+         /* DESKTOP */
+         /* ACTIVE */
+         /* STATES */
+/******************************/
 
 
+/* Change Button */
+/* Payment Button */
+/* Cancel Button */
+
+.change-btn,
+.payment-btn,
+.cancel-btn {
+  cursor: pointer;
+}
+
+
+/* Change Button Hover State */
+
+.change-btn:hover {
+  color: var(--light-purple);
+  text-decoration: none;
+}
+
+
+/* Payment Button Hover State */
+
+.payment-btn:hover {
+  background-color: var(--light-purple);
+}
+
+
+/* Cancel Button Hover State */
+
+.cancel-btn:hover {
+  color: var(--very-dark-blue);
+}
 
 
 }
