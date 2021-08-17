@@ -225,7 +225,8 @@ body {
 .payment-btn {
   width: 17.4375rem;
   height: 3.125rem;
-  /* align-self: center; */
+  border: none;
+  padding: 0;
   margin: 0 1.5rem 1.5rem 1.5rem;
   background-color: var(--bright-blue);
   color: #FFF;
@@ -301,6 +302,8 @@ body {
 
  .content-container {
    width: 28.125rem;
+   height: 43.5625rem;
+   align-items: center;
  }
 
  
@@ -333,9 +336,54 @@ body {
 
 /* Payment Section Main Container */
 
-/* .payment-section {
+.payment-section {
+  width: 22.125rem;
+  height: 6.125rem;
+  margin: 1.25rem 3rem 2rem 3rem;
+}
 
-} */
+
+/* Payment Section Content Container */
+
+.payment-section-content-container {
+  width: 19.125rem;
+}
+
+
+/* Payment Section Copy Container */
+
+.payment-section-copy-container {
+  margin-left: -4.6875rem;
+}
+
+
+/* Annual Plan Copy */
+/* Plan Price Copy */
+
+.annual-plan-copy,
+.plan-price-copy {
+  font-size: 1rem;
+  line-height: 1.323125rem;
+}
+
+/* Change Button */
+
+.change-btn {
+  font-size: 0.875rem;
+  line-height: 1.1575rem;
+}
+
+
+/* Payment Button */
+
+.payment-btn {
+  width: 22.125rem;
+  margin: 0 3rem 2rem 3rem;
+}
+
+
+
+
 
 
 }
